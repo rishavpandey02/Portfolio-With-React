@@ -21,4 +21,38 @@
 .mainMenuListItem {
     margin: 1rem;
     cursor: pointer;
+    color: white;
+    padding-bottom: 5px;
 }
+
+.mainMenuListItem:hover {
+    color:  #1F51FF;
+    cursor: pointer;
+    border-bottom: 3px solid #1F51FF;
+}
+
+
+.mainMenuImg{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+}
+
+.mainMenuBtn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    border-radius: 2rem;
+}
+
+.mainMenuBtn:hover{
+    cursor: pointer;
+    background: #1F51FF;
+    color: white;
+}
+
