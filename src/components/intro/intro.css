@@ -1,6 +1,6 @@
 #intro {
     height: calc(100vh - 5rem);
-    width: 100vh;
+    width: 100vw;
     max-width: 80rem;
     margin: 0 auto;
     overflow: hidden; 
@@ -11,6 +11,7 @@
     height: 2rem;
     width: 2rem;
     padding: 2px;
+    margin-right: 0.5rem;
 }
 
 .profilePic {
@@ -46,9 +47,10 @@
 }
 
 .introText2 {
-    font-size:2.25rem;
+    font-size:2rem;
     font-weight:100;
     padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .introBtn {
