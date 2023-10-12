@@ -32,7 +32,7 @@ Welcome to the single-page application portfolio for a web developer. Here's a b
 - If a user attempts to exit a form field without entering text, a notification will appear indicating the field is required.
 
 ### 6. **Resume**:
--A link to a Foogle Docs for Resume
+-A link to a Google Docs for Resume (however not completed so link is not available currently)
 
 ### 7. **Footer**:
 - The footer features text or icons that link to the developer's github.
