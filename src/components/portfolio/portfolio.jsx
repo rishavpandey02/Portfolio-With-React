@@ -9,7 +9,7 @@ export const portfolio = () => {
     <section id="portfolio">
         <h2 class="portfolioTitle">My Portfolio</h2>
         <br/>
-        <span class="portfolioText1">My portfolio highlights my technical skills, attention to detail, and my commitment to pushing the boundaries of web development. Here are some projects I have worked on.</span>
+        <span class="portfolioText1">My portfolio highlights my technical skills, attention to detail, and my commitment to pushing the boundaries of web development. Here are some projects I have worked on. (Click on image to go to the project website, and click on button to go to the project repo.)</span>
         <div class= "projects">
             <div class="project">
                 <a href='https://annalisedev.github.io/moviesearch/'>

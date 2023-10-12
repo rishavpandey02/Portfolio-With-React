@@ -57,3 +57,9 @@
     color: white;
 }
 
+.active {
+    color: #1F51FF;
+    padding-bottom:0.5rem ;
+    border-bottom: 3px solid #1F51FF;
+    
+}
