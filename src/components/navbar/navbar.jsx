@@ -7,6 +7,7 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
   return (
     <nav class="navbar">
+      
         <img src={logo} alt="Logo for Portfolio" class='logo'/>
         <div class= "mainMenu">
             <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} class="mainMenuListItem">Home</Link>

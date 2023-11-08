@@ -3,6 +3,7 @@ import './portfolio.css'
 import frontendImg from '../../assets/frontendProject.png'
 import fullStackImg from '../../assets/fullStackProject.png'
 import comingSoon from '../../assets/comingSoon.png'
+import MERNProject from '../../assets/MERNProject.png'
 
 export const portfolio = () => {
   return (
@@ -32,12 +33,12 @@ export const portfolio = () => {
                 </button>
             </div>
             <div class="project">
-                <a href='#'>
-                <img src= {comingSoon} alt="MERN project" class="projectImg"/>
+                <a href='https://mern-car-rental-k71s.onrender.com/'>
+                <img src= {MERNProject} alt="MERN project" class="projectImg"/>
                 </a>
                 <button class="projectBtn">
-                <a href='#' class= "projectLink">
-                <h2>Coming Soon... MERN Project</h2>
+                <a href='https://github.com/rishavpandey02/CarRental.git' class= "projectLink">
+                <h2>MERN Project: LuxeWheels</h2>
                 </a>
                 </button>
             </div>
