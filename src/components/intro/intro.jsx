@@ -1,6 +1,5 @@
 import React from 'react'
 import './intro.css'
-import profilePic from '../../assets/profilePic.png'
 import info from '../../assets/info.png'
 import { Link } from 'react-scroll'
 
@@ -22,7 +21,7 @@ const Intro = () => {
                 Learn More</button>
                 </Link>
             </div>
-            <img src= {profilePic} alt ="Profile Picture" class="profilePic"/>
+            <img src= "#" alt ="Profile Picture" class="profilePic"/>
         </section>
     )
 }
