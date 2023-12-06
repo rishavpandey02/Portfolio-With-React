@@ -1,7 +1,10 @@
 import React from 'react'
 import './intro.css'
-import info from '../../assets/info.png'
-import { Link } from 'react-scroll'
+import { CiLinkedin } from "react-icons/ci";
+import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import profilePic from '../../assets/profilePic.JPG'
+
 
 const Intro = () => {
     return (
@@ -15,13 +18,19 @@ const Intro = () => {
                 <span class="introText1">A Website Developer</span>
                 </span>
                 <p class= "introText2">I am a passion and skilled web developer that has experience in creating user friendly and appealing websites. </p>
-                <Link>
-                <button class="introBtn">
-                  <img src={info} alt="info Pic" class="infoImg" />  
-                Learn More</button>
-                </Link>
+                <div className='socialMediaLinks'>
+                <a className='linkedIn' href= "https://www.linkedin.com/in/rishav-pandey-7aa274270/"> 
+                <CiLinkedin />
+                </a> 
+                <a className='email' href='mailto:rishavpandey@outlook.com.au'>
+                    <SiGmail /> Click Here to Send an Email to Me!
+                </a>
+                <a href='https://github.com/rishavpandey02'>
+                <FaGithub />
+                </a>   
+                </div>
             </div>
-            <img src= "#" alt ="Profile Picture" class="profilePic"/>
+            <img src= {profilePic} alt ="Profile Picture" class="profilePic"/>
         </section>
     )
 }
