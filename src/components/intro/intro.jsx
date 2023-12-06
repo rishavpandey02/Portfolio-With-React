@@ -22,7 +22,7 @@ const Intro = () => {
                 <a className='linkedIn' href= "https://www.linkedin.com/in/rishav-pandey-7aa274270/"> 
                 <CiLinkedin />
                 </a> 
-                <a className='email' href='mailto:rishavpandey@outlook.com.au'>
+                <a className='emailIcon' href='mailto:rishavpandey@outlook.com.au'>
                     <SiGmail /> Click Here to Send an Email to Me!
                 </a>
                 <a href='https://github.com/rishavpandey02'>
